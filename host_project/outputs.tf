@@ -15,7 +15,7 @@
  */
 
 output "svpc_host_project_id" {
-  value = module.shared_vpc_host_project.project_id
+  value = module.shared_vpc_network.project_id
 }
 output "shared_vpc_network" {
   value = module.shared_vpc_network.network_self_link
