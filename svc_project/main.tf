@@ -28,7 +28,7 @@ module "svc_project" {
   labels = {
     environment = var.environment
   }
-  activate_apis        = var.activate_apis
-  svpc_host_project_id = var.svpc_host_project_id
-  shared_vpc_subnets   = var.shared_vpc_subnets
+  activate_apis      = var.activate_apis
+  shared_vpc         = var.svpc_host_project_id
+  shared_vpc_subnets = var.shared_vpc_subnets
 }
