@@ -19,7 +19,7 @@ locals {
 }
 
 module "svc_project" {
-  source            = "terraform-google-modules/project-factory/google"
+  source            = "terraform-google-modules/project-factory/google//modules/svpc_service_project"
   version           = "~> 10.3.2"
   billing_account   = var.billing_account
   org_id            = var.org_id
